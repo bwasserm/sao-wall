@@ -1,0 +1,38 @@
+# SAO Wall
+
+Mount your SAOs on your wall for display.
+
+## Design Goals
+* Wall-mountable: that's the point
+* USB-powered: Ubiquitous and easy to acquire
+* Modular and Tileable: Easy to acquire arbitrary numbers to assemble and arrange however you want
+* Chainable: Can be connected together to share a power source
+* Simple: Can support SAOs that only require power without software
+* Smart: Can support interacting with I2C and GPIO on smart SAOs
+
+
+## Desgin trades/notes
+* USB provides 5V 3A without a PD controller, which should be enough
+* SAO [1.68bis](https://docs.google.com/document/u/0/d/1EJqvkkLMAPsQ9VWF5A4elWoi0qMlKyr5Giw5rqRmtnM/mobilebasic?pli=1) spec specifies 250mA max per SAO, but most are smaller, so a 500mA 3.3V regulator seems reasonable for 4 SAOs. However it can be easily swapped for another at lower or higher current.
+* I tried board-edge connectors at first, but that really complicates making arbitrary layouts. Using cables makes that way easier, and USB-C connectors seem appropriate. Also, getting alignment correct of the connectors on the 60deg edges of the hexagon seemed more difficult.
+* One in and two out connectors is enough to make a binary power tree.
+* 5cm per side is a nice round number, and keeps the tiles small, but big enough for the SAOs to have some space between them. Also, it should be plenty small enough for 0.3m USB cables between tiles, without being too tight or having too much extra slack to hide.
+* The Raspberry Pi Pico W is optional, for talking to smart SAOs (I2C or GPIO) and controlling the 3.3V regulator to turn them on and off. A Pico 2 W should also work. I wanted this to be compatible with firmware similar to the 2024 Supercon badge.
+* I picked Pico pins for 2 of the SAOs' GPIOs to be connected to UARTs on the Pico. It only has two UARTs, but at least those are options.
+* I wanted to put a current shunt on the 3.3V regulator to measure the load of the SAOs, but I didn't want to have the voltage drop on that rail, or add the op-amp to measure the tiny voltage difference to do that properly. At least not on this rev, but maybe a future rev.
+* No, its not going to be great RF performance from the Pico, but hopefully good enough.
+* The tiles can be arranged or connected in any order. All smart behavior is localized to the one tile, so it doesn't matter where it gets connected in the chain.
+
+## BOM
+* 1x TI LM2594MX-3.3 Simple Switcher IC REG BUCK 3.3V 500MA 8SOIC [Datasheet](https://www.ti.com/lit/ds/symlink/lm2594.pdf)
+* 4x S9717-ND CONN HDR 6POS 0.1 GOLD PCB 
+* 3x USB4125-GF-A CONN RCPT TYPE C 6P SMD RA [Datasheel](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6501/USB4125%20Product%20Spec.pdf)
+* 2x 5.1k 0603 Resistor
+* 1x 68uF 0603 Capacitor
+* 1x 120uF 0603 Capactior
+* 1x Schottky 0603 Diode
+
+Optional
+* 1x Raspberry Pi Pico (2) W
+* 2x 5.1k 0603 Resistors
+* 1x Schottky 0603 Diode
