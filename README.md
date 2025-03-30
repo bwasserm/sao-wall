@@ -9,6 +9,7 @@ Mount your SAOs on your wall for display.
 * Chainable: Can be connected together to share a power source
 * Simple: Can support SAOs that only require power without software
 * Smart: Can support interacting with I2C and GPIO on smart SAOs
+* Accessible: Keep component cost low and hand solderable for home assembly 
 
 
 ## Desgin trades/notes
@@ -24,15 +25,19 @@ Mount your SAOs on your wall for display.
 * The tiles can be arranged or connected in any order. All smart behavior is localized to the one tile, so it doesn't matter where it gets connected in the chain.
 
 ## BOM
-* 1x TI LM2594MX-3.3 Simple Switcher IC REG BUCK 3.3V 500MA 8SOIC [Datasheet](https://www.ti.com/lit/ds/symlink/lm2594.pdf)
-* 4x S9717-ND CONN HDR 6POS 0.1 GOLD PCB 
-* 3x USB4125-GF-A CONN RCPT TYPE C 6P SMD RA [Datasheel](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6501/USB4125%20Product%20Spec.pdf)
+* 1x TI LM2594MX-3.3 Simple Switcher IC REG BUCK 3.3V 500MA 8SOIC [Datasheet](https://www.ti.com/lit/ds/symlink/lm2594.pdf) [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/LM2594MX-3-3-NOPB/366825)
+* 4x S9717-ND CONN HDR 6POS 0.1 GOLD PCB [Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SFH11-NBPC-D03-ST-BK/4558818)
+* 3x USB4125-GF-A CONN RCPT TYPE C 6P SMD RA [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6501/USB4125%20Product%20Spec.pdf) [Digikey](https://www.digikey.com/en/products/detail/gct/USB4125-GF-A/13547388)
 * 2x 5.1k 0603 Resistor
 * 1x 68uF 0603 Capacitor
 * 1x 120uF 0603 Capactior
 * 1x Schottky 0603 Diode
 
 Optional
-* 1x Raspberry Pi Pico (2) W
+* 1x Raspberry Pi Pico (2) W  [Pico W Datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) [Pico 2 W Datasheet](https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf)
 * 2x 5.1k 0603 Resistors
 * 1x Schottky 0603 Diode
+
+# Renders
+![Front Render](render-front.png)
+![Back Render](render-back.png)
