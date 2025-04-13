@@ -34,7 +34,7 @@ Mount your SAOs on your wall for display.
 * 1x Schottky Diode [Digikey](https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N5817W/25701312)
 * 1x 68uH Inductor [Digikey](https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6028T680MMGJ/2665982)
 
-Digikey Shopping Cart: https://www.digikey.com/short/jzd2qm89
+Digikey Shopping Cart: https://www.digikey.com/short/9j8qpdhb
 
 Optional
 * 1x Raspberry Pi Pico (2) W  [Pico W Datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) [Pico 2 W Datasheet](https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf)
