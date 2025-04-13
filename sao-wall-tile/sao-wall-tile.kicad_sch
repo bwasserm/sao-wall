@@ -3156,6 +3156,12 @@
 		(uuid "0867a90b-dea0-4ec1-ad2c-4f4145eebb74")
 	)
 	(junction
+		(at 102.87 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d34a4d1-f70b-4179-a018-146b6ef1e36f")
+	)
+	(junction
 		(at 86.36 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3166,12 +3172,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9d7ba1e-5657-4308-914c-4c4e884e8c73")
-	)
-	(junction
-		(at 95.25 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1be30c3-9eca-4e0e-929c-cc467cdd53ac")
 	)
 	(junction
 		(at 80.01 99.06)
@@ -3217,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 95.25 99.06)
+			(xy 86.36 99.06) (xy 102.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3237,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 95.25 90.17)
+			(xy 102.87 87.63) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 93.98 90.17)
+			(xy 102.87 90.17) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3477,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 91.44) (xy 95.25 90.17)
+			(xy 102.87 91.44) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3597,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 95.25 87.63)
+			(xy 85.09 87.63) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3817,7 +3817,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 95.25 90.17)
+			(xy 110.49 90.17) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4698,7 +4698,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 101.6 90.17 270)
+		(at 110.49 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4707,7 +4707,7 @@
 		(fields_autoplaced yes)
 		(uuid "30d8c58e-a64a-4ac6-b3d9-2ca43fdcac89")
 		(property "Reference" "#PWR025"
-			(at 97.79 90.17 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4716,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 105.41 90.1699 90)
+			(at 114.3 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 90.17 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 90.17 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 101.6 90.17 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_Elec_5x5.8"
 			(at 49.2252 95.25 0)
 			(effects
 				(font
@@ -5982,7 +5982,7 @@
 				)
 			)
 		)
-		(property "Value" "100uH"
+		(property "Value" "47uH"
 			(at 90.17 86.614 90)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering"
 			(at 90.17 90.17 0)
 			(effects
 				(font
@@ -6830,7 +6830,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 95.25 0)
+		(at 102.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6839,7 +6839,7 @@
 		(fields_autoplaced yes)
 		(uuid "d135e13f-fb04-4df0-ac85-354a56aa0ab5")
 		(property "Reference" "C2"
-			(at 99.06 93.9799 0)
+			(at 106.68 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6848,7 @@
 			)
 		)
 		(property "Value" "120uF"
-			(at 99.06 96.5199 0)
+			(at 106.68 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,8 +6856,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 96.2152 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 103.8352 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +6866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 95.25 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +6875,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 95.25 95.25 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +7330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 95.25 0)
 			(effects
 				(font

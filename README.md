@@ -28,10 +28,13 @@ Mount your SAOs on your wall for display.
 * 1x TI LM2594MX-3.3 Simple Switcher IC REG BUCK 3.3V 500MA 8SOIC [Datasheet](https://www.ti.com/lit/ds/symlink/lm2594.pdf) [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/LM2594MX-3-3-NOPB/366825)
 * 4x S9717-ND CONN HDR 6POS 0.1 GOLD PCB [Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SFH11-NBPC-D03-ST-BK/4558818)
 * 3x USB4125-GF-A CONN RCPT TYPE C 6P SMD RA [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6501/USB4125%20Product%20Spec.pdf) [Digikey](https://www.digikey.com/en/products/detail/gct/USB4125-GF-A/13547388)
-* 2x 5.1k 0603 Resistor
-* 1x 68uF 0603 Capacitor
-* 1x 120uF 0603 Capactior
-* 1x Schottky 0603 Diode
+* 2x 5.1k 0603 Resistor [Digikey](https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338)
+* 1x 68uF+ Capacitor [Digikey](https://www.digikey.com/en/products/detail/chinsan-elite/CTB1A101MCB0558/16496866)
+* 1x 120uF+ Capactior [Digikey](https://www.digikey.com/en/products/detail/chemi-con/EMZJ350ARA151MHA0G/21805350)
+* 1x Schottky Diode [Digikey](https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N5817W/25701312)
+* 1x 68uH Inductor [Digikey](https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6028T680MMGJ/2665982)
+
+Digikey Shopping Cart: https://www.digikey.com/short/jzd2qm89
 
 Optional
 * 1x Raspberry Pi Pico (2) W  [Pico W Datasheet](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf) [Pico 2 W Datasheet](https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf)
