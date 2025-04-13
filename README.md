@@ -30,7 +30,7 @@ Mount your SAOs on your wall for display.
 * 3x USB4125-GF-A CONN RCPT TYPE C 6P SMD RA [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6501/USB4125%20Product%20Spec.pdf) [Digikey](https://www.digikey.com/en/products/detail/gct/USB4125-GF-A/13547388)
 * 2x 5.1k 0603 Resistor [Digikey](https://www.digikey.com/en/products/detail/yageo/RC0805JR-075K1L/728338)
 * 1x 68uF+ Capacitor [Digikey](https://www.digikey.com/en/products/detail/chinsan-elite/CTB1A101MCB0558/16496866)
-* 1x 120uF+ Capactior [Digikey](https://www.digikey.com/en/products/detail/chemi-con/EMZJ350ARA151MHA0G/21805350)
+* 1x 120uF+ Capactior [Digikey](https://www.digikey.com/en/products/detail/chemi-con/EMVE100ARA151MF80G/756835)
 * 1x Schottky Diode [Digikey](https://www.digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N5817W/25701312)
 * 1x 68uH Inductor [Digikey](https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6028T680MMGJ/2665982)
 
