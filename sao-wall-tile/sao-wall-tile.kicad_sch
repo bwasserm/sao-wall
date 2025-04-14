@@ -3239,16 +3239,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 201.93 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28593a8c-6526-40f7-8967-eb983b21cd13")
-	)
-	(wire
-		(pts
 			(xy 247.65 64.77) (xy 250.19 64.77)
 		)
 		(stroke
@@ -3306,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "3ab3acc8-0dc8-483c-be63-8cccb2c34bf6")
-	)
-	(wire
-		(pts
-			(xy 190.5 92.71) (xy 201.93 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494ad703-28b2-416a-8660-b83233591916")
 	)
 	(wire
 		(pts
@@ -3729,6 +3709,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 74.93) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8486d39-088b-4738-be99-f7b4c765800a")
+	)
+	(wire
+		(pts
 			(xy 189.23 54.61) (xy 201.93 54.61)
 		)
 		(stroke
@@ -3736,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "f8c8d041-a70a-4602-a3b9-352653e21c99")
+	)
+	(wire
+		(pts
+			(xy 189.23 77.47) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fe2cc1-ebdd-4fc5-becc-c65136137e6e")
 	)
 	(wire
 		(pts
@@ -3827,15 +3827,25 @@
 		)
 		(uuid "30cef855-d5ee-4776-9bbd-e71fc40519fb")
 	)
-	(label "SAO4_GPIO2"
-		(at 190.5 92.71 0)
+	(label "SAO4_GPIO1"
+		(at 189.23 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "315bec7c-edf8-4910-a6b2-cb71869dc08a")
+		(uuid "3541dd3a-88d8-43fd-a8c2-eda77f97d527")
+	)
+	(label "SAO4_GPIO2"
+		(at 189.23 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b621184-7039-478f-9ad6-6c1168569d66")
 	)
 	(label "SAO_SDA"
 		(at 43.18 152.4 0)
@@ -3906,16 +3916,6 @@
 			(justify left bottom)
 		)
 		(uuid "6dba6f23-6be3-49e4-af9c-275556eb7f70")
-	)
-	(label "SAO4_GPIO1"
-		(at 190.5 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7890e5f6-eedb-4b85-8af6-212bb8134035")
 	)
 	(label "SAO1_GPIO1"
 		(at 250.19 64.77 0)
@@ -4149,7 +4149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03083f05-c2bc-4021-b753-c7dac2e1aada")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 55.88 48.514 90)
 			(effects
 				(font
@@ -4201,7 +4201,7 @@
 		(instances
 			(project ""
 				(path "/1b373ada-da4c-41cd-a895-48eab357c8f4"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6554,7 +6554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93b33d3a-e10b-4d18-9926-00aa39a5a3bd")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 55.88 36.83 90)
 			(effects
 				(font
@@ -6606,7 +6606,7 @@
 		(instances
 			(project ""
 				(path "/1b373ada-da4c-41cd-a895-48eab357c8f4"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
