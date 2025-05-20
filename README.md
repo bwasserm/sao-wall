@@ -2,6 +2,8 @@
 
 Mount your SAOs on your wall for display.
 
+[Hackaday.io Page](https://hackaday.io/project/203082-sao-wall-tile)
+
 ## Design Goals
 * Wall-mountable: that's the point
 * USB-powered: Ubiquitous and easy to acquire
