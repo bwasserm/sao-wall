@@ -13,7 +13,6 @@ Mount your SAOs on your wall for display.
 * Smart: Can support interacting with I2C and GPIO on smart SAOs
 * Accessible: Keep component cost low and hand solderable for home assembly 
 
-
 ## Desgin trades/notes
 * USB provides 5V 3A without a PD controller, which should be enough
 * SAO [1.68bis](https://docs.google.com/document/u/0/d/1EJqvkkLMAPsQ9VWF5A4elWoi0qMlKyr5Giw5rqRmtnM/mobilebasic?pli=1) spec specifies 250mA max per SAO, but most are smaller, so a 500mA 3.3V regulator seems reasonable for 4 SAOs. However it can be easily swapped for another at lower or higher current.
@@ -45,3 +44,6 @@ Optional
 # Renders
 ![Front Render](render-front.png)
 ![Back Render](render-back.png)
+
+# Attribution and feedback
+If you make and distribute this, please add a reference back to me or this repo so people can know where it came from. If you make any new designs to integrate into this system, please let me know so everyone can learn about them. Thanks!
